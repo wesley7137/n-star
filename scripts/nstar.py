@@ -171,7 +171,6 @@ class AdvancedCEN(Model):
         self.load_weights(filepath + '.h5')
 
 # Update in AGISystem
-AGISystem.set_cen(AdvancedCEN(model_type='GPT2'))
 
 
 class DynamicAttentionLayer(tf.keras.layers.Layer):
@@ -351,6 +350,7 @@ class AGISystem:
 
 # Instantiate the AGI system
 agi_system = AGISystem()
+#AGISystem.set_cen(AdvancedCEN(model_type='GPT2'))
 
 
 def customize_gan(gan, generator_params, discriminator_params):
