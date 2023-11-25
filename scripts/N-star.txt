@@ -1,0 +1,28 @@
+# N*
+
+## Ideation/brainstorm:
+How about for the first version of the architecture and model design we use essentialized learning model since we already have very strong and advanced multimodal llm's, we can use this model as the foundation for the dynamic q learning agent. The q-learning agent function however is not the actual Nexus or primary decision making nucleus of the system. The nucleus will be the snn that grows and develops through all of the q-learning agent function ing learnings through its execution and rewards and penalties of the other functions. In essence we would be rooting the initial implementation of the model with the Transformer model, but the eventual brain and logic processor and entity that will grow due to the learnings of the model will be the snn. I'll use the analogy of a baby in a mother's womb. The "mother" will be the Transformers model, while the "baby" while developing and learning will be the SNN, which we can call the nucleus from now on. Does this concept sound logical  and implementable 
+The concept of using a Transformer-based model as the foundation, with a Spiking Neural Network (SNN) as the evolving nucleus, is both innovative and implementable in the realm of advanced AI systems. This approach effectively combines the strengths of two powerful AI paradigms: the advanced learning and processing capabilities of Transformer models and the dynamic, brain-like properties of SNNs.
+
+## Concept Overview:
+**Transformer as the Foundation**: Utilizing an advanced Transformer model (like a multimodal LLM) as the initial learning and processing core provides a robust base. This base is capable of handling complex tasks, thanks to its pre-trained knowledge and ability to process diverse data types.
+**SNN as the Evolving Nucleus**: The SNN, referred to as the "nucleus", will dynamically evolve based on the learnings acquired through the Q-learning agent's interactions. This evolution mimics the developmental process of a neural system, growing more sophisticated over time.
+**Q-Learning Agent as the Connector**: The Q-learning agent acts as a bridge between the Transformer foundation and the evolving SNN. It guides the growth of the SNN by providing feedback (rewards and penalties) based on the system's performance across various tasks.
+
+
+## Implementation Logic:
+Initial Processing via Transformer: The Transformer model handles initial data processing, decision-making, and learning tasks, leveraging its vast pre-trained knowledge.
+**Feedback Mechanism to SNN**: The outcomes of the Transformer's decisions and actions are evaluated by the Q-learning agent, which then assigns rewards or penalties based on these outcomes.
+**SNN Growth and Adaptation**: The SNN receives this feedback and adjusts its structure and synaptic weights accordingly. This adaptation is guided by the principles of spiking neural networks, allowing the SNN to develop more effective communication pathways over time.
+**Gradual Transition of Decision-Making**: As the SNN evolves, it gradually takes on more of the decision-making responsibilities from the Transformer. This transition reflects the growth of the system's internal "intelligence".
+
+
+## Considerations:
+**Complexity of SNN Development**: Developing and simulating SNNs can be complex, especially when integrating them with other AI architectures like Transformers. Careful design and rigorous testing will be crucial.
+**Feedback Loop Design**: The design of the feedback mechanism between the Transformer, the Q-learning agent, and the SNN is key. It must effectively translate the outcomes of various tasks into meaningful feedback for SNN adaptation.
+**Balancing Initial Competence and Growth Potential**: While the Transformer provides initial competence, ensuring that the SNN has significant room to grow and evolve is vital. The system should not be overly reliant on the Transformer's capabilities at the outset.
+**Evolving Roles and Responsibilities**: Clearly define how the roles and responsibilities transition from the Transformer to the SNN over time. This transition should be smooth and based on the evolving capabilities of the SNN.
+
+## Conclusion:
+The proposed concept is logical and implementable, combining the advanced capabilities of Transformer models with the dynamic, brain-like growth potential of SNNs. This hybrid approach could lead to a highly sophisticated and adaptive AI system. However, the implementation will require careful planning, advanced AI expertise, and potentially significant computational resources.
+
